@@ -1,0 +1,56 @@
+/* Custom styles for Laundry Management System */
+body {
+    font-family: Arial, sans-serif;
+}
+
+#sidebar {
+    background-color: #f8f9fa;
+    min-height: 100vh;
+}
+
+#sidebar .nav-link.active {
+    background-color: #0d6efd;
+    color: #fff !important;
+}
+
+#sidebar .nav-link:hover {
+    background-color: #e2e6ea;
+}
+
+section {
+    padding-top: 1rem;
+}
+
+table {
+    font-size: 0.9rem;
+}
+
+.modal-title {
+    font-weight: bold;
+}
+
+/* Invoice styling */
+#invoiceContent {
+    padding: 1rem;
+    border: 1px solid #dee2e6;
+}
+
+#invoiceContent h4 {
+    margin-top: 0;
+}
+
+.invoice-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+.invoice-table th, .invoice-table td {
+    border: 1px solid #dee2e6;
+    padding: 8px;
+    text-align: left;
+}
+.invoice-total {
+    text-align: right;
+    font-weight: bold;
+    margin-top: 1rem;
+}
